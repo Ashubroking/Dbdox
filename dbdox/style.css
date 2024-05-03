@@ -1,0 +1,539 @@
+/* Header Section Css Start */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+.first {
+  width: 98vw;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid;
+  border-color: rgb(244, 6, 157);
+  width: 100%;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+nav img {
+  width: 150px;
+}
+li {
+  padding: 10px 10px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: justify;
+}
+li:hover {
+  padding: 10px 15px;
+  transition: all 1s ease-in-out;
+  background: rgb(238, 9, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 9, 225, 0.8969712885154062) 12%,
+    rgba(251, 0, 0, 1) 100%
+  );
+  font-family: sans-serif;
+  color: #fff;
+}
+/* Header Section Css End */
+
+/* Main Section Css Start */
+
+.main {
+  width: 100%;
+}
+.main span {
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #ef1166;
+}
+.main h1 {
+  position: relative;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-left: 15px;
+  margin-top: 2rem;
+}
+.main h1::after {
+  position: absolute;
+  content: "";
+  width: 55%;
+  height: 2px;
+  background-color: #ff4500;
+  display: block;
+  position: absolute;
+  top: 115%;
+  right: 65%;
+  left: 1%;
+}
+.main p {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  padding-left: 15px;
+}
+.start {
+  padding: 10px 50px;
+  border: none;
+  border-radius: 15px;
+  background-color: #ef1166;
+  color: #fff;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  justify-content: center;
+  align-items: center;
+  margin-left: 42%;
+  margin-top: 50px;
+}
+.start:hover {
+  transform: scale(1.2);
+  transition: all 2s ease-in-out;
+  background-color: #fc0808;
+  color: #fff;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  cursor: pointer;
+}
+
+/* Main Section Css End */
+
+/* Card Section Css Start */
+.lead {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.iconc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border-color: #fff;
+  border: solid;
+  width: 50px;
+  height: 50px;
+}
+.iconc:hover{
+  background-color: #000;
+}
+.fa-solid {
+  font-size: 15px;
+  overflow: hidden;
+}
+.fa-regular {
+  font-size: 15px;
+  overflow: hidden;
+}
+.leadcard1 {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+  justify-content: space-evenly;
+  border: groove;
+  border-radius: 10px;
+  border-color: #d12366;
+  background: rgb(238, 9, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 9, 225, 0.8969712885154062) 12%,
+    rgba(251, 0, 0, 1) 100%
+  );
+  color: #fff;
+  overflow: hidden;
+}
+.leadcard2 {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+  justify-content: space-evenly;
+  border: groove;
+  border-radius: 10px;
+  border-color: #d12366;
+  background: rgb(238, 9, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 9, 225, 0.8969712885154062) 12%,
+    rgba(251, 0, 0, 1) 100%
+  );
+  color: #fff;
+  overflow: hidden;
+}
+.leadcard3 {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+  justify-content: space-evenly;
+  border: groove;
+  border-radius: 10px;
+  border-color: #d12366;
+  background: rgb(238, 9, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 9, 225, 0.8969712885154062) 12%,
+    rgba(251, 0, 0, 1) 100%
+  );
+  color: #fff;
+  overflow: hidden;
+}
+.leadcard4 {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+  justify-content: space-evenly;
+  border: groove;
+  border-radius: 10px;
+  border-color: #d12366;
+  background: rgb(238, 9, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 9, 225, 0.8969712885154062) 12%,
+    rgba(251, 0, 0, 1) 100%
+  );
+  color: #fff;
+  overflow: hidden;
+}
+.leadcard1:hover {
+  background-color: #ef1166;
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  opacity: 0.6;
+}
+.leadcard2:hover {
+  background-color: #ef1166;
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  opacity: 0.6;
+}
+.leadcard3:hover {
+  background-color: #ef1166;
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  opacity: 0.6;
+}
+.leadcard4:hover {
+  background-color: #ef1166;
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  opacity: 0.6;
+}
+.leadcard1 h3 {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  padding-left: 15px;
+}
+.leadcard2 h3 {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  padding-left: 15px;
+}
+.leadcard3 h3 {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  padding-left: 15px;
+}
+.leadcard4 h3 {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  padding-left: 15px;
+}
+.leadcard1 p {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  padding-left: 15px;
+}
+.leadcard2 p {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  padding-left: 15px;
+}
+.leadcard3 p {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  padding-left: 15px;
+}
+.leadcard4 p {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  padding-left: 15px;
+}
+/* Card Section Css End */
+
+/* About Us Section Css Start */
+.about {
+  width: 100%;
+}
+.about span {
+  color: yellow;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+.about h1 {
+  color: #fff;
+  position: relative;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+.about h1::after {
+  content: "";
+  width: 20%;
+  height: 2px;
+  background-color: #ff4500;
+  display: block;
+  position: absolute;
+  top: 110%;
+  left: 40%;
+}
+.about {
+  background-color: black;
+  width: 100%;
+  height: 400px;
+}
+.about p {
+  text-align: justify;
+  color: #fff;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  overflow: hidden;
+  padding: 10px 20px;
+}
+.contact {
+  padding: 10px 50px;
+  border: solid;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  justify-content: center;
+  align-items: center;
+  margin-left: 42%;
+}
+.contact:hover {
+  padding: 10px 50px;
+  border: solid;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #000000;
+  transform: scale(1.05);
+  transition: all 1s ease-in-out;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  justify-content: center;
+  align-items: center;
+  margin-left: 42%;
+}
+
+/* About Us Section Css End */
+
+/* <!-- Our Services Section Css Start --> */
+
+.services {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  height: 300px;
+}
+.detox h1 {
+  color: #000;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+.detox span {
+  color: #d12366;
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+.detox h1 {
+  column-span: all;
+  position: relative;
+}
+.detox h1::after {
+  content: "";
+  width: 20%;
+  height: 2px;
+  background-color: #ff4500;
+  display: block;
+  position: absolute;
+  top: 90%;
+  left: 40%;
+}
+.detox {
+  display: inline-block;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-evenly;
+  column-count: 3;
+  column-rule: 1px solid red;
+}
+.servicecard1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+.servicecard2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+.servicecard3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+.servicecard4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+/* <!-- Our Services Section Css End --> */
+
+/* Footer Section Css Start */
+.foot {
+  height: 200px;
+  width: 100%;
+  background: rgb(238, 9, 233);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 9, 233, 0.9754026610644257) 0%,
+    rgba(246, 138, 6, 1) 100%
+  );
+  border: solid 2px rgb(255, 255, 255);
+}
+.foot img {
+  width: 150px;
+  background-color: #fff;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 45%;
+}
+.foot h3 {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+.sent{
+  text-align: center;
+}
+.foot span {
+  color: #000000;
+  background-color: #fff;
+}
+.foot span:hover {
+  color: #ff0000;
+}
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+}
+.fa-brands {
+  color: #fff;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.fa-brands:hover{
+  transform: scale(1.2);
+  transition: all 1s ease-in-out;
+}
+/* Footer Section Css End */
+
+/* Foot Section Media Start */
+@media only screen and (max-width:600px) and (min-width:200px){
+  .foot{
+    width: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot img{
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+  .foot h3{
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+  }
+}
